@@ -63,6 +63,7 @@ body {
   max-width: 1170px;
   margin: 0 auto;
   width: 100%;
+  gap: 15px;
 }
 .banner-img {
   width: 100%;
@@ -160,7 +161,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .popular-btn {
   width: 174px;
@@ -173,16 +174,165 @@ body {
   font-size: 20px;
   font-weight: 800;
   border: 0;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .popular-img {
   width: 540px;
   gap: 50px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .popular-img img {
   width: 100%;
   margin: 0 auto;
   display: block;
   object-fit: cover;
+}
+/* destination section style starts here */
+.destination-container {
+  width: 1440px;
+  margin: 0 auto;
+  margin-left: 20%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.img-container {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+}
+.text-container {
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.text-container h1 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+.text-container p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* card styles starts here */
+.card-container {
+  width: 1440px;
+  margin: 0 auto;
+  background: #FFF;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  margin-left: 30%;
+}
+.card-text h1 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.card-text p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.hotel{
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.hotel h4{
+  color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.hotel p{
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.map{
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.map h4{
+  color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.map p{
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.price-tag{
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.price-tag h4{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.price-tag p{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }

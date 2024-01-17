@@ -11,6 +11,11 @@
     gap: 5px;
   }
   /* banner section responsive */
+  .banner{
+    flex-direction: column;
+    width: 100%;
+    
+  }
 }
 
 
