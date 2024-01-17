@@ -1,0 +1,16 @@
+/* navbar section responsive */
+@media screen and (max-width: 676px) {
+  .nav-container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .items-container{
+    flex-direction: column;
+    margin-left: 25px;
+    gap: 5px;
+  }
+  /* banner section responsive */
+}
+
+
